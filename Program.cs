@@ -60,7 +60,6 @@ namespace SudokuSolver
                 Console.Write(arg + " ");
             }
 
-            TestPrintXmlInitialValues("..//..//..//xmlPuzzles//cvPuzzle1.xml");
             Console.ReadLine();
         }
 
@@ -164,8 +163,7 @@ namespace SudokuSolver
         //}
 
         /// <summary>
-        /// Lists the initial values of the puzzle file
-        /// 
+        /// Lists the initial values of the puzzle file.
         /// </summary>
         /// <param name="xmlPuzzleFile">Test files: @"../../puzzle1.xml", @"../../puzzle2.xml", @"../../MxNpuzzle1.xml", </param>
         private static void TestPrintXmlInitialValues(string xmlPuzzleFile)
