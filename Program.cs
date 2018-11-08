@@ -180,11 +180,9 @@ namespace SudokuSolver
         }
 
         /// <summary>
-        /// TODO
-        /// Attempts to open an xml puzzle file. 
-        /// Where does error handling happen?
+        /// Attempts to open an xml puzzle file.
         /// </summary>
-        /// <param name="xmlPuzzleFile">Test files: @"../../puzzle1.xml", @"../../puzzle2.xml", @"../../MxNpuzzle1.xml",</param>
+        /// <param name="xmlPuzzleFile">Test files: "..//..//xmlPuzzles//puzzle1.xml", etc</param>
         /// <returns>Returns the reader if opening the file is successful. (Next step is deserialization)</returns>
         private static TextReader OpenPuzzleFile(string xmlPuzzleFile)
         {
@@ -207,7 +205,6 @@ namespace SudokuSolver
                 }
                 Console.ReadLine();
                 Environment.Exit(3);
-
             }
             catch (Exception e)
             {
