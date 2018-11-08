@@ -69,7 +69,7 @@ namespace SudokuSolver
         }
 
         /// <summary>
-        /// Alters runtime flag variables to execute with user's desired configuration. 
+        /// Processes runtime arguments to execute with user's desired configuration. 
         /// </summary>
         /// <param name="args">The command-line args at execution.</param>
         private static void ParseCommandLine(string[] args)
