@@ -63,11 +63,6 @@ namespace SudokuSolver
             Console.ReadLine();
         }
 
-        private static void InitializeLog()
-        {
-
-        }
-
         /// <summary>
         /// Processes runtime arguments to execute with user's desired configuration. 
         /// </summary>
