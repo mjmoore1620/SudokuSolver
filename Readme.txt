@@ -1,9 +1,9 @@
-﻿Project:		SudokuSolver
+Project:		SudokuSolver
 File Name:		Readme.txt
-Description:	Readme
+Description:		Readme
 Course:			CSCI 5300 - Software Design
 Author:			Matthew Moore, zmjm1320@gmail.com
-Created:	    10/31/2017
+Created:	    	10/31/2017
 Copyright:		Matthew Moore, 2017
 
 Sudoku Puzzle Specifications:
