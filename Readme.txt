@@ -1,4 +1,4 @@
-﻿Project:		SudokuSolver
+Project:		SudokuSolver
 File Name:		Readme.txt
 Description:		Readme
 Course:			CSCI 5300 - Software Design
